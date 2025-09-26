@@ -8,3 +8,8 @@ It allows the user to list characters, search by ID, search by name, and view de
 - View details of a character (race, ki, origin planet)
 - View the planet’s name and description
 - Search characters by name
+
+## How to Run 
+1. Make sure you have Python 3.12+ installed.
+2. Install the required library:
+pip install requests
