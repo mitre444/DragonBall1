@@ -13,3 +13,16 @@ It allows the user to list characters, search by ID, search by name, and view de
 1. Make sure you have Python 3.12+ installed.
 2. Install the required library:
 pip install requests
+
+# Issues 
+## Issue 1: API returns inconsistent data structures 
+Problem: When searching by name, sometimes the API returned a list and other times a dictionary with `"items"`. 
+Solution: Added logic using `isinstance()` to handle both cases. 
+
+## Issue 2: Program crashed when invalid ID was entered 
+Problem: Entering a non-existent character ID caused the program to break. 
+Solution: Implemented error handling to print `"Character not found."` instead of crashing. 
+
+## Issue 3: No clear way to stop the program 
+Problem: Once inside the menu, the user had no clean way to exit. 
+Solution: Added a `while True` loop with a `"Do you want to continue? (y/n)"` prompt to let the user exit safely.
