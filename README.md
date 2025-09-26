@@ -26,3 +26,8 @@ Solution: Implemented error handling to print `"Character not found."` instead o
 ## Issue 3: No clear way to stop the program 
 Problem: Once inside the menu, the user had no clean way to exit. 
 Solution: Added a `while True` loop with a `"Do you want to continue? (y/n)"` prompt to let the user exit safely.
+
+# Future Improvements 
+- Add pagination to display more than 10 characters at a time.
+- Add filtering by race or power level.
+- Possibly create a simple UI instead of console-only. 
